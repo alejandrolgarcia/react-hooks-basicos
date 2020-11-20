@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { ExampleRef } from './components/04-useRef/ExampleRef';
+import { Padre } from './components/07-tarea-memo/Padre';
+// import { CallbackHook } from './components/06-memos/CallbackHook';
+// import { MemoHook } from './components/06-memos/MemoHook';
+// import { Memorize } from './components/06-memos/Memorize';
+// import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
+// import { ExampleRef } from './components/04-useRef/ExampleRef';
 // import App from './App';
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
@@ -22,7 +27,12 @@ ReactDOM.render(
     // <SimpleForm />,
     // <MultipleCustomHooks />,
     // <FocusScreen />,
-    <ExampleRef />,
+    // <ExampleRef />,
+    // <LayoutEffect />,
+    // <Memorize />,
+    // <MemoHook />,
+    // <CallbackHook />,
+    <Padre />,
   document.getElementById('root')
 );
 
