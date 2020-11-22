@@ -1,4 +1,3 @@
-
 export const todoReducer = ( state = [], action ) => {
 
     switch ( action.type ) {
@@ -33,5 +32,4 @@ export const todoReducer = ( state = [], action ) => {
         default:
             return state;
     }
-
 }
